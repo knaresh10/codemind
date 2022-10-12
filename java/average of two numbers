@@ -1,0 +1,14 @@
+import java.io.*;
+
+class Sample {
+	public static void main(String args[]) throws Exception {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String a = br.readLine();
+		String ch[] = a.split(" ");
+		float x = Float.parseFloat(ch[0]);
+		float y = Float.parseFloat(ch[1]);
+		float avg = (x+y)/2.0f;
+		System.out.printf("%.4f",avg);
+
+	}
+}

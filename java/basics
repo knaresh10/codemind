@@ -1,0 +1,237 @@
+
+##### taking input and printing
+
+
+
+import java.util.Scanner;
+class Sample{
+    public static void main(String args[]){
+        Scanner s=new Scanner(System.in);
+        String str=s.nextLine();
+        System.out.println(str);
+    }
+}
+
+
+
+###### Average of two numbers
+
+
+
+import java.util.Scanner;
+class Sample{
+    public static void main(String args[]){
+        Scanner s=new Scanner(System.in);
+        int n1=s.nextInt();
+        int n2=s.nextInt();
+        float avg;
+        avg=(n1+n2)/2.0f;
+        System.out.printf("%.4f",avg);
+        
+    }
+}
+
+
+
+###### multiplication
+
+
+
+import java.util.Scanner;
+class Sample{
+    public static void main(String args[]){
+        Scanner s=new Scanner(System.in);
+        int n1=s.nextInt();
+        int n2=s.nextInt();
+        int mul;
+        mul=n1*n2;
+        System.out.println(mul);
+    }
+}
+
+
+###### division
+
+
+import java.util.Scanner;
+class Sample{
+    public static void main(String args[]){
+        Scanner s=new Scanner(System.in);
+        int n1=s.nextInt();
+        int n2=s.nextInt();
+        int div;
+        div=n1/n2;
+        System.out.println(div);
+    }
+}
+
+
+
+##### modulus
+
+
+import java.util.Scanner;
+class Sample{
+    public static void main(String args[]){
+        Scanner s=new Scanner(System.in);
+        int n1=s.nextInt();
+        int n2=s.nextInt();
+        int mod;
+        mod=n1%n2;
+        System.out.println(mod);
+    }
+}
+
+
+
+###### addition
+
+
+
+
+import java.util.Scanner;
+class Sample{
+    public static void main(String args[]){
+        Scanner s=new Scanner(System.in);
+        int n1=s.nextInt();
+        int n2=s.nextInt();
+        int add;
+        add=n1+n2;
+        System.out.println(add);
+    }
+}
+
+
+
+
+######## area of circle
+
+
+
+
+import java.util.Scanner;
+class Sample{
+    public static void main(String args[]){
+        Scanner s=new Scanner(System.in);
+        int r=s.nextInt();
+        float area;
+        area=3.14f*r*r;
+        System.out.println(area);
+       
+    }
+}
+
+
+
+
+########## area of triangle
+
+
+
+import java.util.Scanner;
+class Sample{
+    public static void main(String args[]){
+        Scanner s1=new Scanner(System.in);
+        int a=s1.nextInt();
+        int b=s1.nextInt();
+        int c=s1.nextInt();
+        float s;
+        float area;
+        s=(a+b+c)/2.0f;
+        area=(float)Math.sqrt(s*(s-a)*(s-b)*(s-c));
+        System.out.printf("%.2f",area);
+        
+       
+    }
+}
+
+
+
+
+
+########## ascii of a character
+
+
+import java.util.Scanner;
+class Sample{
+    public static void main(String args[]){
+        Scanner s1=new Scanner(System.in);
+        char ch=s1.next().charAt(0);
+        System.out.println((int)ch);
+    }
+}
+
+
+
+
+
+
+#### convertion of celsius to forenheit 
+
+
+import java.util.Scanner;
+class Sample{
+    public static void main(String args[]){
+        Scanner s1=new Scanner(System.in);
+        int c=s1.nextInt();
+        float f;
+        f=32+(c*(9/5.0f));
+        System.out.printf("%.2f",f);
+        
+    }
+}
+
+######## disk capacity
+
+import java.util.Scanner;
+class Sample{
+    public static void main(String args[]){
+        Scanner s1=new Scanner(System.in);
+        int a=s1.nextInt();
+        int b=s1.nextInt();
+        int c=s1.nextInt();
+        System.out.println(2*a*b*c*512);
+       
+        
+    }
+}
+
+
+###### handshakes
+
+
+
+
+import java.util.Scanner;
+class Sample{
+    public static void main(String args[]){
+        Scanner s1=new Scanner(System.in);
+        int a=s1.nextInt();
+        int ans=0;
+        for(int i=1;i<a;i++){
+            ans=ans+i;
+        }
+        System.out.println(ans);
+       
+        
+    }
+}
+
+
+
+
+
+######### multiplication of float
+
+
+import java.util.Scanner;
+class Sample{
+    public static void main(String args[]){
+        Scanner s=new Scanner(System.in);
+        float n1=s.nextFloat();
+        float n2=s.nextFloat();
+        float mul;
+        mul=n1*n2;
+        System.out.printf("%.2f",mul);
+    }
+}
