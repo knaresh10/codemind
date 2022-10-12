@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+	string s;
+	cin >> s;
+	char min = 'z';
+	for (auto x : s) if (min > x) min = x;
+	while (cin >> s) {}
+	char max = 'A';
+	for (auto x : s) if (max < x) max = x;
+	cout << min << " " <<  max;
+}
